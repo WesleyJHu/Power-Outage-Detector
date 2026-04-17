@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  power-monitor:
+    build: .
+    restart: always
+    volumes:
+      - ./data:/data
+    env_file:
+      - .env
