@@ -7,4 +7,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["node", "detector.js"]
+CMD ["node", "detector.mjs"]
